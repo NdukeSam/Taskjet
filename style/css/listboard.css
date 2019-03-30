@@ -6,3 +6,38 @@ body h1, h2, h3, h4{
     font-family: 'Quicksand', sans-serif;
     color: rgba(112, 112, 112, 1);
 }
+
+.main-list{
+
+}
+
+.list-header-1{
+    background-color: rgba(250, 162, 27, 1);
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 10px;
+}
+
+.list-header-2{
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 10px;
+}
+
+.list-header-3{
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 10px;
+}
+
+.list-header-4{
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 10px;
+}
+
+.list-card{
+    border-radius: 17px;
+    padding: 20px;
+}
+

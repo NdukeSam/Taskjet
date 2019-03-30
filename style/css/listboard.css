@@ -16,28 +16,38 @@ body h1, h2, h3, h4{
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
+    color: #fff;
+    display: flex;
 }
 
 .list-header-2{
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
+    color: #fff;
+    display: flex;
 }
 
 .list-header-3{
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
+    color: #fff;
+    display: flex;
 }
 
 .list-header-4{
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
+    color: #fff;
+    display: flex;
 }
 
 .list-card{
     border-radius: 17px;
     padding: 20px;
+    color: #fff;
+    display: flex;
 }
 

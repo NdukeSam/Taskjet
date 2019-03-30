@@ -55,7 +55,7 @@ body h1, h2, h3, h4{
 .settings_logout{
     display: flex;
     justify-content: space-between;
-    align-self: flex-end;
+    padding-top: 40%;
 }
 
 .flex_div{
@@ -78,4 +78,73 @@ body h1, h2, h3, h4{
 #real_time{
     font-family: 'Mont DEMO', cursive;
     font-weight: 900;
+}
+
+/* .search-me{
+     display: inline; 
+     width: 75%; 
+} */
+
+.bot_in_notification{
+    display: flex;
+
+}
+
+.notification_card{
+    border-radius: 17px;
+    border: 2px solid rgba(26, 119, 187, 1);
+    padding: 20px;
+}
+
+.other_notifications{
+    padding-top: 40px;
+}
+
+/* .img-icon{
+    display: inline-block; 
+    width: 25%; 
+} */
+
+.icon{
+    height: 40px;
+    border-radius: 100%;
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-transparent{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding-right: 70px;
+}
+
+.btn-cancel{
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.notified{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.today{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.today p{
+    margin-bottom: 0px;
+}
+
+.full_height{
+    height: 100%;
 }

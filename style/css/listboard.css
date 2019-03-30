@@ -1,0 +1,8 @@
+body p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body h1, h2, h3, h4{
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(112, 112, 112, 1);
+}

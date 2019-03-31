@@ -11,43 +11,101 @@ body h1, h2, h3, h4{
 
 }
 
-.list-header-1{
+#list-header-1{
     background-color: rgba(250, 162, 27, 1);
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
     color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.list-header-2{
+#list-header-1 h2{
+    color: #fff;
+}
+
+#list-header-2{
+    background-color: rgba(175, 36, 132, 1);
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
     color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.list-header-3{
+#list-header-2 h2{
+    color: #fff;
+}
+
+#list-header-3{
+    background-color: rgba(26, 119, 187, 1);
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
     color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.list-header-4{
+#list-header-3 h2{
+    color: #fff;
+}
+
+#list-header-4{
+    background-color: rgba(10, 225, 96, 1);
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 10px;
     color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#list-header-4 h2{
+    color: #fff;
 }
 
 .list-card{
     border-radius: 17px;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     display: flex;
+}
+
+.list-content{
+    background-color: #DBDBD7;
+}
+
+.card{
+    color: rgba(112, 112, 112, 1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    -webkit-box-shadow: 0px 7px 20px -8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 7px 20px -8px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 20px -8px rgba(0,0,0,0.5);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.details-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-cancel{
+    background-color: #fff;
+    border: none;
+    outline: none;
 }
 

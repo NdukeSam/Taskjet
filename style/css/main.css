@@ -1,0 +1,207 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face{
+ font-family: 'Mont DEMO', sans-serif;
+ src: url("../assets/fonts/Mont-Font-Family/Fontfabric_Mont-Heavy-DEMO.otf");
+
+}
+body{
+  margin: 0px;
+}
+
+body h1{
+  font-family: 'Mont DEMO', serif;
+  font-weight: 900;
+}
+
+body p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* board css */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* sidebar */
+
+  .main-dashboard {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  /* board css ends here */
+
+  /* landing page css */
+  .left-end{
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* modal */
+  .modal{
+    margin-top: 250px;
+  }
+
+  .right-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .logo{
+    height: 30px;
+  }
+
+  .menu-icon{
+    height: 15px;
+  }
+
+  .padding-top{
+    padding-top: 30px;
+  }
+
+  .padding-top-writeup{
+    padding-top: 80px;
+  }
+
+  .blue-mat{
+    position: absolute;
+    top: -40px;
+    right: 300px;
+    z-index: -1;
+  }
+
+  .blue-icon-img{
+    height: 220px;
+  }
+
+  .office-girl-div{
+    position: absolute;
+    top: -20px;
+    right: 149px;
+  }
+
+  .girl-in-office{
+    height: 410px;
+  }
+
+  .rounded-guys{
+    height: 300px;
+  }
+
+  .rounded-guy-div{
+    position: absolute;
+    top: 196px;
+    right: 90px;
+  }
+
+  .relative{
+    position: relative;
+  }
+
+  .row-css {
+    margin-top: 327px;
+  }
+.image-1{
+  height:100px;
+  width: 80px;
+  float:right;
+}
+
+  .card {
+  border-radius: 17px;
+  box-shadow: -1px 109px 81px 0px rgba(0, 0, 0, 0.1);
+  height: 375px;
+  weight: 704%;
+  
+  }
+
+  .second-card{
+    height: 330px;
+    padding-left: 57px;
+  }
+  
+
+  .tooltip{
+    padding:2px 7px;
+    color:#55AAAA;
+    text-align:center;
+    font-weight:900;
+    background: -webkit-gradient(linear, left top, left 25, from(#F4F4F4), color-stop(4%, #B4C8D6), to(#F4F4F4));
+    border: 1px solid #55AAAA;
+    border-radius:9px;   
+ 
+}
+
+.mat-div{
+  position:absolute ;
+  height: 270px;
+  padding-top: 20px;
+  right: 136px;
+  top: -136px;
+}
+
+.row-div1 {
+  margin-top: 225px;
+}
+
+.center-text{
+  position: absolute;
+  right: 18px;
+  top: -7px;
+  padding-right: 300px;
+  height: 50px;
+  text-align: right;
+}
+.center-text h1{
+font-size: 20px;
+}
+
+.center-text p{
+  font-size: 10px;
+}
+
+.btn{
+  background-color: rgba(175, 36, 132, 1);
+  color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.btn:hover{
+  background-color: rgba(175, 36, 132, 1);
+  color: white;
+  border-radius: 5px;
+}
+
+.row-footer{
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.row-footer li {
+  list-style: none;
+}
+#footer{
+  background-color: rgba(175, 36, 132, 1);
+}
+  /* landing css ends here */

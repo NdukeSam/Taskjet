@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TaskPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <nav>
+            <div class="container">
+                <div class="row padding-top">
+                    <div class="col-md-12"></div>
+                        <div class="col-md-6 left-end">
+                            <img src="assets/images/logos/Original_Logo.svg" class="img-responsive img-fluid logo" height="20px;"  alt="logo">
+                        </div>
+                        <div class="col-md-6 right-end">
+                           <a href="#exampleModal" role="button" data-toggle="modal"><img src="assets/images/UI Assets/Menu Icon.svg" class="img-responsive img-fluid menu-icon" height="15px;" alt=" menu icon"></a>
+                        </div>
+                </div>
+            </div>
+            </nav>
+          
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color:transparent;">
+              <h5 class="modal-title" id="exampleModalLabel">You are here, Sign In</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <input type="text"  placeholder="Email" style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                    <input type="text"  placeholder="Password" style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Forgot password?</button>
+             <button data-target="#create-account" type="button" class="btn btn-primary" data-toggle="modal">Create account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Modal 2-->
+       <div class="modal fade" id="create-account" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header" style="background-color:transparent;">
+                  <h5 class="modal-title" id="exampleModalLabel">Glad you thought of this</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <input type="text"  placeholder="Full Name" style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                        <input type="text"  placeholder="Email" style="width:70%; padding: 15px; margin-bottom: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                        <input type="text"  placeholder="Confrim email" style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Next</button> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        
+            <div class="container">
+                <div class="row padding-top-writeup">
+                    <div class="col-md-5">
+                        <h1 style=" color: rgba(81, 79, 79, 1);">Manage at a Glance with taskjet...</h1>
+                        <p>A flexible approach to managing projects, teams and tasks at a Glance</p>
+
+                        <p><a href="dashboard.html" target="_blank">Sign Up or Login</a></p>
+                        
+                    </div>
+                    <div class="col-md-7 relative">
+                        <div class="blue-mat">
+                            <img src="assets/images/UI Assets/Light blue mat.svg" class="blue-icon-img" alt="blue pattern">
+                        </div>
+                        <div class="office-girl-div">
+                            <img src="assets/images/UI Assets/Girl in Office.svg" class="girl-in-office" alt="girl in office">
+                        </div>
+                        <div class="rounded-guy-div">
+                                <img src="assets/images/UI Assets/Rounded Guy Images.svg" class="rounded-guys" alt="rounded guys">
+                            </div>
+                        <div class="quatre-circle-div">
+                            
+                        </div>
+                    </div> 
+                </div>
+                <div class="row row-css">
+                        <div class="col-md-2">
+                            <div class="blue-mat-1">
+                               <img class="image-1" src="assets/images/UI Assets/Light blue mat.svg"  alt="blue pattern">
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <h1 style="text-align:center;">How taskjet works</h1>
+                        </div>
+
+                        <div class="col-md-2"></div>
+                    </div>
+                <div class="row my-row">
+                     <div class="col-md-4">
+                         <div class="card">
+                            <img src="assets/images/UI Assets/Card 1 Elements.svg" class="img-responsive img-fluid first-card" alt="first card">
+                         </div>
+                         <div class="text text-center">
+                                <h5 style=" color: rgba(81, 79, 79, 1);">Track</h5>
+                                <p>Easily monitor your team's progress just at a glance</p>
+                        </div>
+                         
+                     </div>
+
+                     <div class="col-md-4">
+                         <div class="card">
+                         <img src="assets/images/UI Assets/Card 2 Elemnt.svg" class="img-responsive img-fluid second-card" alt="second card">
+                         </div>
+                         <div class="text text-center">
+                                    <h5 style=" color: rgba(81, 79, 79, 1);">Timing Ease</h5>
+                                    <p>Get reminded before due date to increase workflow</p>
+                                </div>
+                     </div>
+
+                     <div class="col-md-4">
+                         <div class="card">
+                         <img src="assets/images/UI Assets/Card 3 Elemnt.svg" class="img-responsive img-fluid third-card" alt="third card">
+                         </div>
+                         <div class="text text-center">
+                                    <h5 style=" color: rgba(81, 79, 79, 1);">Fun</h5>
+                                    <p>Get tips & quotes while tasking when you interact with your jet bot</p>
+                                </div>
+                        </div>
+                     </div>
+    
+                 <div class="yellow-jet" style="width: 100%;display: flex;justify-content: center; margin-top: 100px;">
+                        <img src="assets/images/UI Assets/Blue Jets.svg" class="yellow-jet yellow-jet" style="height: 70px; width:  49px;" alt="jet">
+                    </div>
+
+                <div class="text-center" style="margin-top:100px;">
+                 <h1>Work smarter with taskjet</h1>
+                 <p>Suitable for all team sizes and tasks</p>
+                </div>
+
+                <div class="row down-row">
+                        <div class="flex-container" style="display:flex; width: 100%; justify-content:space-between">
+                      <div class="img-div" style="height:100px; width: fit-content;">
+                          <img src="assets/images/logos/Cocacola.svg"  style="height:20px;" alt="">
+                      </div>
+                      <div class="img-div" style="height:100px; width: fit-content;">
+                            <a href="#" data-toggle="tooltip" data-placement="right" title="With taskjet we are able to manage and track the workflow of our team mates within one work space, easier and faster...">  <img src="assets/images/logos/codekago.svg" style="height:20px;" alt=""> </a>
+                        </div>
+
+                        <div class="img-div" style="height:100px; width: fit-content;">
+                                <img src="assets/images/logos/MTN__grey.svg" style="height:20px;" alt="">
+                            </div>
+                            <div class="img-div" style="height:100px; width: fit-content;">
+                                <img src="assets/images/logos/pepesi.svg" style="height:20px;" alt="">
+                            </div>
+                            <div class="img-div" style="height:100px; width: fit-content;">
+                                <img src="assets/images/logos/airtel_black.svg"  style="height:20px;" alt="">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="second-text" style="margin-top:100px; position: relative;">
+                        <div>
+                            <img src="assets/images/UI Assets/Light blue mat.svg" class="mat-div mat-div" alt="blue-mat">
+                        </div>
+                    <div class="center-text center-text" style="">
+                        <h1>Meet Taskjet</h1>
+                        <p>Billions of Users visit Taskjet every day.</p>
+                    </div>
+                    </div>
+                                 
+                    <div class="row row-div1">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                                <p style="text-align:center;">Taskjet is a centralized work hub that gives you a deeper insight of the work process designed in developing a schedule, tracking progress,assigning task and also enhancing team collaboration in a single virtual platform...
+                                </p>
+                        </div>
+                        <div class="col-md-2"><img src="assets/images/UI Assets/Blue Jets.svg" style="height:70px;" alt="blue jet"></div>
+                    </div>
+                         
+                    <div class="row row-class">
+                            <div class="col-md-2"></div>
+
+                            <div class="col-md-8">
+                                <h1 style="text-align:center;">Let's get you started</h1>
+                                <input type="text"  placeholder="your fancy email here" style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px blue; height: 49px;">
+                               <span><a href="#" class="btn btn-lg">Get</a></span> 
+                            </div>
+
+                            <div class="col-md-2"></div>
+                    </div>
+
+                    
+            </div>
+            <footer class="container-luid" id="footer">
+                <div class="container">
+
+                            <div class="row row-footer">
+                                <div class="col-md-2">
+                                   
+                                <img src="assets/images/logos/Original_Logo.svg" class="" height="20px;"  alt="logo">
+                                </div>
+
+                                  <div class="col-md-2">
+                                <ul>
+                                        <li>About</li>
+                                        <li>Features</li>
+                                        <li>Dashboard</li>
+                                        <li>Testimoney</li>
+                                        <li>Sales</li>
+                                        <li>Usage</li>
+                                </ul>
+                        </div>
+                        <div class="col-md-2">
+                                <ul>
+                                        <li>Terms & Condition</li>
+                                        <li>Solutions</li>
+                                        <li>privacy</li>
+                                        <li>Help</li>
+                                        <li>Videos</li>
+                                </ul>
+                        </div>
+                        <div class="col-md-4">
+                                <input type="text"  placeholder="Say Hello and tap enter" style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                        </div>
+                        <div class="col-md-2">
+                                <ul>
+                                        <li><i class="fa fa-facebook"></i></li>
+                                        <li><i class="fa fa-twitter"></i></li>
+                                        <li><i class="fa fa-linkedin"></i></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+   
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>        </footer>
+</body>
+</html>

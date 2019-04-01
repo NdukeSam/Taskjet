@@ -87,7 +87,7 @@
                             </div>
                         </div>
 
-                        <div class="text-center">
+                        <div class="text-center add-button">
                             <a data-target="#exampleModal1" role="button" data-toggle="modal"><i style="color: rgba(250, 162, 27, 1);" class="fas fa-plus-circle fa-2x"></i></a>
                         </div>
                         <!-- Modal -->
@@ -103,16 +103,16 @@
                                     </div>
                                     <div class="modal-body">
                                         <label for="Task Name">What's the task Name?</label><br>
-                                        <input type="text"
+                                        <input id="bundleName" type="text"
                                             style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; "><br>
                                         <label for="Task Description">Tell us about the task</label><br>
-                                        <textarea name="task-decribe" id="task-decription" cols="30" rows="10"
+                                        <textarea name="task-decribe" id="bundleDescript" cols="30" rows="10"
                                             style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;"></textarea>
                                         <form class="md-form">
                                             <div class="file-field">
                                                 <div class="btn  btn-sm float-left">
                                                     <span>Choose file</span>
-                                                    <input type="file">
+                                                    <input id="bundleImg" type="file">
                                                 </div>
                                             </div>
                                         </form>
@@ -120,7 +120,7 @@
                                     <div class="modal-footer center-block">
                                         
                                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                        <button data-target="#create-task" type="button" class="btn btn-primary" data-toggle="modal">Create
+                                        <button data-target="#create-task" type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" id="bundleSave">Create
                                             Task</button>
                                     </div>
                                 </div>

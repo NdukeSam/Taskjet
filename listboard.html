@@ -15,17 +15,31 @@
     <div class="container-fluid">
     <nav>
         <div class="row">
-            <div class="col-md-12">
-                    <div class="col-md-6" style="display: flex;">
+            <div class="col-md-12" style="display: flex; justify-content: space-between;">
+                    <div class="col-md-6" style="display: flex; justify-content: space-around;">
+                        <div style="padding-top: 20px;">
                         <img src="assets/images/Original_Logo.svg" style="height: 40px;" alt=" original logo">
+                        </div>
+                        <div style="padding-top: 20px; ">
                         <img src="assets/images/face.jpg" style="height: 40px; border-radius: 50%;" alt="original logo">
-                        <span><h2>My taskjet team <i class="fas fa-angle-down"></i></h2></span>
+                        </div>
+                        <span><h2>Taskjet design team <i class="fas fa-angle-down"></i></h2></span>
 
                     </div>
-                    <div class="col-md-6">
-                        <i class="fas fa-check-circle fa-2x"></i>
-                        <i class="fa-search fa-2x"></i>
+                    <div class="col-md-6" style="padding-top: 15px; display: flex; justify-content: flex-end; padding: 10px;">
+                      <div style="display: flex; justify-content: space-around; align-items: center;">
+                            <div>
+                                <i class="fas fa-check-circle fa-2x"></i>
+                            </div>
+                            <div>
+                                <i class="far fa-bell fa-2x"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-search fa-2x"></i>
+                            </div>
+
                         <img src="assets/images/face.jpg" style="height: 40px; border-radius: 50%;" alt="original logo">
+                      </div>
                     </div>
             </div>
         </div>
@@ -57,6 +71,7 @@
                         </div>
                         <div class="list-card">
                             <div class="card">
+                                <h5>Implement Ofiare's Design</h5>
                                 <p>Reach to market survey participant with activities reaching the chart board room</p>
                                 <div class="details-row">
                                     <div id="due-date">
@@ -83,6 +98,7 @@
                     <div class="list-content">
                         <div class="list-card">
                             <div class="card">
+                                <h5>My new task</h5>
                                 <p>Create and Upload user flow diagrams to app.sympli.com... assign project roles</p>
                                 <div class="details-row">
                                     <div id="due-date">
@@ -105,6 +121,7 @@
                     <div class="list-content">
                         <div class="list-card">
                             <div class="card">
+                                <h5>My fancy task</h5>
                                 <p>Reach to market survey participant with activities reaching the chart board room</p>
                                 <div class="details-row">
                                     <div id="due-date">
@@ -130,6 +147,38 @@
                                     <div class="attach"><button class="btn-cancel"> <i class="fa fa-paperclip" aria-hidden="true"></i></button>
                                     </div>
                                     <div class="icon"><a href="#"> <img src="assets/images/face.jpg" style="height: 40px; border-radius: 50%;" alt="user-icon"></a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="center-block">
+                           <a href="#exampleModal" role="button" data-toggle="modal"></a> <i class="fas fa-plus-circle"></i>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background-color:transparent;">
+                                        <h5 class="modal-title" id="exampleModalLabel">What's your new task?</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="Task Name">What's the task Name?</label>
+                                        <input type="text" 
+                                            style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                                        <input type="text" placeholder="Task Description"
+                                            style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;">
+                                            <label for="Task Description">Tell us about the task</label>
+                                            <textarea name="task-decribe" id="task-decription" cols="30" rows="10"></textarea>
+                                    </div>
+                                    <div class="modal-footer center-block">
+                                        
+                                        <button data-target="#create-task" type="button" class="btn btn-primary" data-toggle="modal">Create
+                                            Task</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +221,7 @@
                             </div>
                         </div>
                         <div class="list-card">
-                            < div class="card">
+                            <div class="card">
                                 <p>Reach to market survey participant with activities reaching the chart board room</p>
                                 <div class="details-row">
                                     <div id="due-date">

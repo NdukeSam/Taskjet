@@ -131,8 +131,8 @@ body p{
   .card {
   border-radius: 17px;
   box-shadow: -1px 109px 81px 0px rgba(0, 0, 0, 0.1);
-  height: 375px;
-  weight: 704%;
+  height: 295px;
+  margin-bottom: 20px;
   
   }
 

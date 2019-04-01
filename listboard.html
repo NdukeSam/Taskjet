@@ -87,7 +87,7 @@
                             </div>
                         </div>
 
-                        <div class="text-center">
+                        <div class="text-center" style="justify-content: flex-end;">
                             <a data-target="#exampleModal1" role="button" data-toggle="modal"><i style="color: rgba(250, 162, 27, 1);" class="fas fa-plus-circle fa-2x"></i></a>
                         </div>
                         <!-- Modal -->
@@ -151,13 +151,13 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <a data-target="#exampleModal" role="button" data-toggle="modal"><i style="color: rgba(175, 36, 132, 1);" class="fas fa-plus-circle fa-2x"></i></a>
+                            <a data-target="#exampleModal2" role="button" data-toggle="modal"><i style="color: rgba(175, 36, 132, 1);" class="fas fa-plus-circle fa-2x"></i></a>
                         </div>
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
-                            <div class="modal-dialog row" role="document">
-                                <div class="modal-content col-md-8">
+                            <div class="modal-dialog modal-dialog-centered row" role="document">
+                                <div class="modal-content ">
                                     <div class="modal-header" style="background-color:transparent;">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -167,23 +167,22 @@
                                     <div class="modal-body">
                                         <label for="Task Name">What's the task Name?</label><br>
                                         <input type="text"
-                                            style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; "><br>
+                                            style=" margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; "><br>
                                         <label for="Task Description">Tell us about the task</label><br>
                                         <textarea name="task-decribe" id="task-decription" cols="30" rows="10"
-                                            style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;"></textarea>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="inputGroupFileAddon01">Want to add images?</span>
+                                            style=" padding: 15px; border-radius: 5px; border:solid 1px gray; height: 50px;"></textarea>
+                                        <form class="md-form">
+                                            <div class="file-field">
+                                                <div class="btn float-left">
+                                                    <span>Choose file</span>
+                                                    <input class="btn-sm" type="file">
+                                                </div>
                                             </div>
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="inputGroupFile01"
-                                                    aria-describedby="inputGroupFileAddon01">
-                                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-                                            </div>
-                                        </div>
+                                        </form>
                                     </div>
                                     <div class="modal-footer center-block">
                         
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                         <button data-target="#create-task" type="button" class="btn btn-primary" data-toggle="modal">Create
                                             Task</button>
                                     </div>
@@ -233,40 +232,41 @@
                             </div>
                         </div>
 
-                        <div class="text-center">
+                        <div class="text-center" justify-content: flex-end;>
                            <a data-target="#exampleModal3" role="button" data-toggle="modal"><i class="fas fa-plus-circle fa-2x"></i></a>
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                         >
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
+                            <div class="modal-dialog modal-dialog-centered row" role="document">
+                                <div class="modal-content ">
                                     <div class="modal-header" style="background-color:transparent;">
-                                        <h5 class="modal-title" id="exampleModalLabel">What's your new task?</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span>&times;</span>
-                                        
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h1 class="modal-title text-center" id="exampleModalLabel">Have a new task?</h1>
                                     </div>
                                     <div class="modal-body">
                                         <label for="Task Name">What's the task Name?</label><br>
-                                        <input type="text" 
-                                            style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; "><br>
-                                            <label for="Task Description">Tell us about the task</label><br>
-                                            <textarea name="task-decribe" id="task-decription" cols="30" rows="10" style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;"></textarea>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="inputGroupFileAddon01">Want to add images?</span>
-                                                </div>
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-                                                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                        <input type="text"
+                                            style=" margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; "><br>
+                                        <label for="Task Description">Tell us about the task</label><br>
+                                        <textarea name="task-decribe" id="task-decription" cols="30" rows="10"
+                                            style="padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;"></textarea>
+                                        <form class="md-form">
+                                            <div class="file-field">
+                                                <div class="btn float-left">
+                                                    <span>Choose file</span>
+                                                    <input class="btn-sm" type="file">
                                                 </div>
                                             </div>
+                                        </form>
                                     </div>
                                     <div class="modal-footer center-block">
-                                        
+                        
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                         <button data-target="#create-task" type="button" class="btn btn-primary" data-toggle="modal">Create
-                                            Task
+                                            Task</button>
                                     </div>
                                 </div>
                             </div>
@@ -336,39 +336,41 @@
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
-                            <div class="modal-dialog row" role="document">
-                                <div class="modal-content col-md-8">
-                                    <div class="modal-header" style="background-color:transparent;">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        <h1 class="modal-title text-center" id="exampleModalLabel">Have a new task?</h1>
-                                    </div>
-                                    <div class="modal-body">
-                                        <label for="Task Name">What's the task Name?</label><br>
-                                        <input type="text"
-                                            style="width:70%; margin-bottom:15px; padding: 15px; border-radius: 5px; border:solid 1px gray; "><br>
-                                        <label for="Task Description">Tell us about the task</label><br>
-                                        <textarea name="task-decribe" id="task-decription" cols="30" rows="10"
-                                            style="width:70%; padding: 15px; border-radius: 5px; border:solid 1px gray; height: 49px;"></textarea>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="inputGroupFileAddon01">Want to add images?</span>
+                                            <div class="modal-dialog modal-dialog-centered row" role="document">
+                                                <div class="modal-content ">
+                                                    <div class="modal-header" style="background-color:transparent;">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        <h1 class="modal-title text-center" id="exampleModalLabel">Have a new task?</h1>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="form-group">
+                                                        <label for="Task Name">What's the task Name?</label><br>
+                                                        <input type="text"
+                                                            style=" margin-bottom:15px; border-radius: 5px; border:solid 1px gray; "><br>
+                                                        </div>
+                                                        <label for="Task Description">Tell us about the task</label><br>
+                                                        <textarea name="task-decribe" id="task-decription" cols="30" rows="10"
+                                                            style=" padding: 15px; border-radius: 5px; border:solid 1px gray; height: 50px;"></textarea>
+                                                        <form class="md-form">
+                                                            <div class="file-field">
+                                                                <div class="btn float-left">
+                                                                    <span>Choose file</span>
+                                                                    <input class="btn-sm" type="file">
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="modal-footer center-block">
+                                            
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                        <button data-target="#create-task" type="button" class="btn btn-primary" data-toggle="modal">Create
+                                                            Task</button>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="inputGroupFile01"
-                                                    aria-describedby="inputGroupFileAddon01">
-                                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer center-block">
-                        
-                                        <button data-target="#create-task" type="button" class="btn btn-primary" data-toggle="modal">Create
-                                            Task</button>
-                                    </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>

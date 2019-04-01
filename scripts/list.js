@@ -1,9 +1,9 @@
 $(function () {
 	var bundleList = [
 		{
-			task: "Lorem ipsum doloerns,, djfkfjsjdn f",
-			date: '"29th April 2018',
-			img:'./dhdjd/hvjff'
+			task: "Hello, I'm just a fucking awesome dude who's sick but helping this buddy of mine. Yeah I'm a nice guy right. Upon the fact I feel like shit, I'm still helping",
+			date: '29th April 2018',
+			img:'assets/images/face.jpg'
 		},
 		{
 			task: "Lorem ipsum doloerns,, djfkfjsjdn f",
@@ -11,6 +11,7 @@ $(function () {
 			img:'./dhdjd/hvjff'
 		}
 	];
+
 	var addnewBundle = function () {
 		var container = $('.bundleCon');
 		$.each(bundleList,function(i,bundleList){
@@ -21,17 +22,24 @@ $(function () {
 				icon = $('<i>'),
 				img = $('<img>');
 			
-			var listDiv = div.attr('class', 'list-card'),
-				cardDiv = div.attr('class', 'card'),
-				title = para.text(bundleList.task),
-				details = div.attr('class', 'details-row')
-			dateDiv = div.attr('id', 'due-date')
-			datePara = para.attr('class', 'date-input')
-				comment = ;
+			var listDiv = $('<div>').attr('class', 'list-card'),
+				cardDiv = $('<div>').attr('class', 'card'),
+				title = $('<p>').text(bundleList.task),
+				details = $('<div>').attr('class', 'details-row'),
+			dateDiv = $('<div>').attr('id', 'due-date'),
+			datePara = $('<p>').attr('class', 'date-input').text(bundleList.date),
+			comment = $('<i>').addClass('fa fa-comment'),
+				attach = $('<i>').addClass('fa fa-paperclip'),
+				imgIcon = $('<div>').addClass('icon')
+				image = $('<img>').attr('src', bundleList.img);
 			
 			
 			container.append(listDiv);
 			listDiv.append(cardDiv);
+			cardDiv.append(title, details);
+			details.append(dateDiv, comment, attach, imgIcon);
+			dateDiv.append(datePara);
+			imgIcon.append(image);
 
 			// Add content to the DOM
 			// link.attr('href',bundleList.docSrc)
@@ -47,4 +55,5 @@ $(function () {
 			// item.appendTo(container);
 	});
 	}
+	$(document).ready(addnewBundle());
 });
